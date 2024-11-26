@@ -9,6 +9,7 @@ public class Assignment1 {
         File file = new File(inputFile);
         try {
             Scanner sc = new Scanner(file);
+            System.out.println(sc.next());
             // Add your code to use the Scanner here
         } catch (FileNotFoundException e) {
             System.out.println("File not found: " + e.getMessage());
