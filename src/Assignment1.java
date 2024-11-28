@@ -75,47 +75,49 @@ public class Assignment1 {
         }
         System.out.println("\n");
 
+        System.out.println(questionOne(words));
+
         System.out.println(questionTwo(words));
 
-        for (Entry entry:
-                words.getArray()) {
-            if (entry == null) {
-                break;
-            }
-            System.out.print(entry.getEntry() + ", ");
-
-        }
-        System.out.println("\n");
+//        for (Entry entry:
+//                words.getArray()) {
+//            if (entry == null) {
+//                break;
+//            }
+//            System.out.print(entry.getEntry() + ", ");
+//
+//        }
+//        System.out.println("\n");
 
     }
 
-    public static String questionOne(Dictionary<String, Integer> dict){
-        Dictionary<String, Integer> wordsDict = new Dictionary<>(dict.getArray().clone());
-        ArrayList<Entry> mostFrequentWords = new ArrayList<>();
-        wordsDict.sort();
-        Entry<String, Integer> mostFrequentWord = wordsDict.getArray()[0];
-        mostFrequentWords.add(mostFrequentWord);
-        int maxFreq = mostFrequentWord.getValue();
-        int i = 1;
-        while(wordsDict.getArray()[i].getValue() == maxFreq && i < wordsDict.size() - 1){
-            mostFrequentWords.add(wordsDict.getArray()[i]);
-            i++;
-        }
-
-        StringBuilder result = new StringBuilder();
-        for (Entry<String, Integer> entry : mostFrequentWords) {
-            result.append(entry.getKey()).append(":").append(entry.getValue()).append("\n");
-        }
-
-        return result.toString();
-        //Find way to get most frequent word.
-        /*
-        * One way to do so is by getting first index of the sorted words dictionary, and iterating through rest of the
-        * words dictionary and checking if that word has the same value as the first word. If it does, add that word to
-        * a new ArrayList "Most Frequent Words."
-        * */
-    }
-    public static String questionTwo(Dictionary<String, Integer> dict, int index){
+//    public static String questionOne(Dictionary<String, Integer> dict){
+//        Dictionary<String, Integer> wordsDict = new Dictionary<>(dict.getArray().clone());
+//        ArrayList<Entry> mostFrequentWords = new ArrayList<>();
+//        wordsDict.sort();
+//        Entry<String, Integer> mostFrequentWord = wordsDict.getArray()[0];
+//        mostFrequentWords.add(mostFrequentWord);
+//        int maxFreq = mostFrequentWord.getValue();
+//        int i = 1;
+//        while(wordsDict.getArray()[i].getValue() == maxFreq && i < wordsDict.size() - 1){
+//            mostFrequentWords.add(wordsDict.getArray()[i]);
+//            i++;
+//        }
+//
+//        StringBuilder result = new StringBuilder();
+//        for (Entry<String, Integer> entry : mostFrequentWords) {
+//            result.append(entry.getKey()).append(":").append(entry.getValue()).append("\n");
+//        }
+//
+//        return result.toString();
+//        //Find way to get most frequent word.
+//        /*
+//        * One way to do so is by getting first index of the sorted words dictionary, and iterating through rest of the
+//        * words dictionary and checking if that word has the same value as the first word. If it does, add that word to
+//        * a new ArrayList "Most Frequent Words."
+//        * */
+//    }
+    public static ArrayList<Entry<String, Integer>> getListOfEntries(Dictionary<String, Integer> dict, int index){
         Dictionary<String, Integer> wordsDict = new Dictionary<>(dict.getArray().clone());
 
         Dictionary<Integer, ArrayList<Entry<String, Integer>>> freqDict = new Dictionary<>();
@@ -138,11 +140,26 @@ public class Assignment1 {
             }
         }
 
+        if (index > freqDict.size() - 1){
+            throw new IndexOutOfBoundsException();
+        }
+
+        return freqDict.getArray()[index].getValue();
+    }
+
+    public static String printListOfEntries(ArrayList<Entry<String, Integer>> listOfEntries){
         StringBuilder result = new StringBuilder();
-        for (Entry<String, Integer> entry : freqDict.getArray()[index].getValue()) {
+        for (Entry<String, Integer> entry : listOfEntries) {
             result.append(entry.getKey()).append(":").append(entry.getValue()).append("\n");
         }
 
         return result.toString();
+    }
+
+    public static String questionOne(Dictionary<String, Integer> dict){
+        return printListOfEntries(getListOfEntries(dict, 0));
+    }
+    public static String questionTwo(Dictionary<String, Integer> dict){
+        return printListOfEntries(getListOfEntries(dict, 2));
     }
 }
