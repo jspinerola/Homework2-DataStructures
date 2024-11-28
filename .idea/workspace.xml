@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2a7688-6aab-45fc-ad22-7fcaeabafcee" name="Changes" comment="feat: created dictionary interface and class. implemented add method.">
+    <list default="true" id="4d2a7688-6aab-45fc-ad22-7fcaeabafcee" name="Changes" comment="feat: implemented word dictionary that stores all words and occurrences.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Assignment1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DictionaryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entry.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,13 +109,22 @@
       <option name="project" value="LOCAL" />
       <updated>1732662597082</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: implemented word dictionary that stores all words and occurrences.">
+      <option name="closed" value="true" />
+      <created>1732736056599</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732736056599</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <MESSAGE value="erm" />
     <MESSAGE value="feat: created dictionary interface and class. implemented add method." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: created dictionary interface and class. implemented add method." />
+    <MESSAGE value="feat: implemented word dictionary that stores all words and occurrences." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implemented word dictionary that stores all words and occurrences." />
   </component>
 </project>

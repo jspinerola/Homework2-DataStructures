@@ -11,6 +11,17 @@ public class Dictionary<K, V> implements DictionaryInterface<K, V> {
         this.numEntries = 0;
         integrityOK = true;
     }
+    public Dictionary(Entry<K, V>[] dict){
+        this.dictionary = dict;
+        this.numEntries = 0;
+        for (Entry<K, V> entry : dict) {
+            if (entry != null) {
+                this.numEntries++;
+            }
+        }
+        integrityOK = true;
+    }
+
     @Override
     public V put(K key, V value){
         if ((key == null) || (value == null)){
@@ -71,8 +82,21 @@ public class Dictionary<K, V> implements DictionaryInterface<K, V> {
         return found;
     }
 
-    public int size(){
-        return this.dictionary.length;
+public int size(){
+    return this.numEntries;
+}
+    public void sort(){
+        int n = this.size();
+        for (int i = 1; i < n; i++) {
+            Entry<K, V> key = this.dictionary[i];
+            int j = i - 1;
+
+            while(j > -1 && (Integer)dictionary[j].getValue() < (Integer)key.getValue()){
+                dictionary[j + 1] = dictionary[j];
+                j--;
+            }
+            dictionary[j + 1] = key;
+        }
     }
 
     private int locateIndex(K key)
