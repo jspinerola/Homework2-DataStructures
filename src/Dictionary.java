@@ -11,6 +11,17 @@ public class Dictionary<K, V> implements DictionaryInterface<K, V> {
         this.numEntries = 0;
         integrityOK = true;
     }
+    public Dictionary(Entry<K, V>[] dict){
+        this.dictionary = dict;
+        this.numEntries = 0;
+        for (Entry<K, V> entry : dict) {
+            if (entry != null) {
+                this.numEntries++;
+            }
+        }
+        integrityOK = true;
+    }
+
     @Override
     public V put(K key, V value){
         if ((key == null) || (value == null)){
@@ -29,32 +40,64 @@ public class Dictionary<K, V> implements DictionaryInterface<K, V> {
             return result;
         }
     }
+
     public V remove(K key){
-        V val = null;
-        return val;
+        V result = null;;
+        int keyIndex = locateIndex(key);
+        if(keyIndex < numEntries){
+             result = this.dictionary[keyIndex].getValue();
+            this.dictionary[keyIndex] = this.dictionary[numEntries - 1];
+            this.dictionary[numEntries - 1] = null;
+            numEntries--;
+        }
+        return result;
     }
 
-    public V get(K key){
-        V val = null;
-        return val;
+    public V get(K key) {
+        int keyIndex = locateIndex(key);
+        if (keyIndex < numEntries) {
+            return dictionary[keyIndex].getValue();
+        } else {
+            return null;
+        }
     }
 
     public Entry<K, V>[] getArray(){
         return this.dictionary;
     }
 
+
+    @Override
     public boolean contains(K key){
-        return true;
+        boolean found = false;
+        for (Entry<K, V> dictKey: this.dictionary) {
+            if(dictKey == null){
+                break;
+            }
+
+            if(dictKey.getKey().equals(key)){
+                found = true;
+            }
+        }
+        return found;
     }
 
-    public int size(){
-        return 1;
+public int size(){
+    return this.numEntries;
+}
+    public void sort(){
+        int n = this.size();
+        for (int i = 1; i < n; i++) {
+            Entry<K, V> key = this.dictionary[i];
+            int j = i - 1;
+
+            while(j > -1 && (Integer)dictionary[j].getValue() < (Integer)key.getValue()){
+                dictionary[j + 1] = dictionary[j];
+                j--;
+            }
+            dictionary[j + 1] = key;
+        }
     }
-
-
-
-
-
 
     private int locateIndex(K key)
     {
@@ -77,7 +120,6 @@ public class Dictionary<K, V> implements DictionaryInterface<K, V> {
             }
         }
     }
-
 }
 
 

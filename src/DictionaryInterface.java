@@ -5,8 +5,8 @@ public interface DictionaryInterface<K, V> {
 
     public V get(K key);
 
-    public boolean contains(K key);
-
     public int size();
+
+    public boolean contains(K key);
 
 }
