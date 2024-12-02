@@ -11,4 +11,4 @@ Gif Walkthrough -
 ## Responsibilities
 Julian - I created the Dictionary interface and class and initialized `sentences` and `words` dictionaries. I also created methods `getEntriesByFrequency`, `questionOne`, `questionTwo`, `questionThree`.
 
-Kevin -
+Kevin - I created the methods `getWordFreq`, `getPhraseFreq`, `countOccurrences`, and `writeToFile`
