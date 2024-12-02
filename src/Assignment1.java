@@ -1,7 +1,10 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class Assignment1 {
@@ -16,7 +19,7 @@ public class Assignment1 {
 
         try {
             Scanner sc = new Scanner(file);
-            while(sc.hasNext()){
+            while (sc.hasNext()) {
                 String next = sc.next();
                 text.append(next.toLowerCase() + " ");
 
@@ -24,7 +27,7 @@ public class Assignment1 {
                 //Store word in variable word
                 String word = next.replaceAll("[.]", "").toLowerCase();
                 //If our words dictionary already contains our word
-                if(words.contains(word)){
+                if (words.contains(word)) {
                     //Increment count of word by one
                     words.put(word, words.get(word) + 1);
                 } else {
@@ -37,15 +40,15 @@ public class Assignment1 {
             System.out.println("File not found: " + e.getMessage());
         }
 
-        System.out.println(text);
+
         sentenceArray = text.toString().split("[.]");
         for (int i = 0; i < sentenceArray.length; i++) {
             Dictionary<String, Integer> sentenceWordCounts = new Dictionary<>();
             Scanner wordSc = new Scanner(sentenceArray[i]);
-            while (wordSc.hasNext()){
+            while (wordSc.hasNext()) {
                 String next = wordSc.next();
                 //If our words dictionary already contains our word
-                if(sentenceWordCounts.contains(next)){
+                if (sentenceWordCounts.contains(next)) {
                     //Increment count of word by one
                     sentenceWordCounts.put(next, sentenceWordCounts.get(next) + 1);
                 } else {
@@ -56,93 +59,54 @@ public class Assignment1 {
 
             sentences.put(sentenceArray[i], sentenceWordCounts);
         }
-//        for (Entry<String, Dictionary<String, Integer>> sentenceEntry : sentences.getArray()) {
-//            if (sentenceEntry == null) {
-//                continue;
-//            }
-//            System.out.println("Sentence: " + sentenceEntry.getKey());
-//            Dictionary<String, Integer> wordCounts = sentenceEntry.getValue();
-//            for (Entry<String, Integer> wordEntry : wordCounts.getArray()) {
-//                if (wordEntry == null) {
-//                    continue;
-//                }
-//                System.out.println(wordEntry.getKey() + ":" + wordEntry.getValue());
-//            }
-//            System.out.println();
-//        }
 
+        // For questionOne
+        String questionOneOutput = questionOne(words);
+        writeToFile(outputFilePrefix + "1.txt", questionOneOutput);
 
+        // For questionTwo
+        String questionTwoOutput = questionTwo(words);
+        writeToFile(outputFilePrefix + "2.txt", questionTwoOutput);
 
+        // For questionThree
+        String questionThreeOutput = questionThree(sentences);
+        writeToFile(outputFilePrefix + "3.txt", questionThreeOutput);
 
-        for (Entry entry:
-                words.getArray()) {
-            if (entry == null) {
-                break;
-            }
-            System.out.print(entry.getEntry() + ", ");
+        // For getWordFreq and getPhraseFreq
+        String wordFreqThe = getWordFreq(sentences, "the");
+        writeToFile(outputFilePrefix + "4.txt", wordFreqThe);
 
-        }
-        System.out.println("\n");
+        String wordFreqOf = getWordFreq(sentences, "of");
+        writeToFile(outputFilePrefix + "5.txt", wordFreqOf);
 
-        System.out.println(questionOne(words));
+        String wordFreqWas = getWordFreq(sentences, "was");
+        writeToFile(outputFilePrefix + "6.txt", wordFreqWas);
 
-        System.out.println(questionTwo(words));
+        String phraseFreqButThe = getPhraseFreq(sentences, "but the");
+        writeToFile(outputFilePrefix + "7.txt", phraseFreqButThe);
 
-        System.out.println(questionThree(sentences));
+        String phraseFreqItWas = getPhraseFreq(sentences, "it was");
+        writeToFile(outputFilePrefix + "8.txt", phraseFreqItWas);
 
-
-
-//        for (Entry entry:
-//                words.getArray()) {
-//            if (entry == null) {
-//                break;
-//            }
-//            System.out.print(entry.getEntry() + ", ");
-//
-//        }
-//        System.out.println("\n");
+        String phraseFreqInMy = getPhraseFreq(sentences, "in my");
+        writeToFile(outputFilePrefix + "9.txt", phraseFreqInMy);
 
     }
 
-//    public static String questionOne(Dictionary<String, Integer> dict){
-//        Dictionary<String, Integer> wordsDict = new Dictionary<>(dict.getArray().clone());
-//        ArrayList<Entry> mostFrequentWords = new ArrayList<>();
-//        wordsDict.sort();
-//        Entry<String, Integer> mostFrequentWord = wordsDict.getArray()[0];
-//        mostFrequentWords.add(mostFrequentWord);
-//        int maxFreq = mostFrequentWord.getValue();
-//        int i = 1;
-//        while(wordsDict.getArray()[i].getValue() == maxFreq && i < wordsDict.size() - 1){
-//            mostFrequentWords.add(wordsDict.getArray()[i]);
-//            i++;
-//        }
-//
-//        StringBuilder result = new StringBuilder();
-//        for (Entry<String, Integer> entry : mostFrequentWords) {
-//            result.append(entry.getKey()).append(":").append(entry.getValue()).append("\n");
-//        }
-//
-//        return result.toString();
-//        //Find way to get most frequent word.
-//        /*
-//        * One way to do so is by getting first index of the sorted words dictionary, and iterating through rest of the
-//        * words dictionary and checking if that word has the same value as the first word. If it does, add that word to
-//        * a new ArrayList "Most Frequent Words."
-//        * */
-//    }
-    public static ArrayList<Entry<String, Integer>> getEntriesByFrequency(Dictionary<String, Integer> dict, int index){
+
+    public static ArrayList<Entry<String, Integer>> getEntriesByFrequency(Dictionary<String, Integer> dict, int index) {
         Dictionary<String, Integer> wordsDict = new Dictionary<>(dict.getArray().clone());
 
         Dictionary<Integer, ArrayList<Entry<String, Integer>>> freqDict = new Dictionary<>();
 
         wordsDict.sort();
 
-        for (Entry<String, Integer> entry:
+        for (Entry<String, Integer> entry :
                 wordsDict.getArray()) {
             if (entry == null) {
                 break;
             }
-            if (freqDict.contains(entry.getValue())){
+            if (freqDict.contains(entry.getValue())) {
                 ArrayList<Entry<String, Integer>> entryList = freqDict.get(entry.getValue());
                 entryList.add(entry);
                 freqDict.put(entry.getValue(), entryList);
@@ -152,7 +116,7 @@ public class Assignment1 {
                 freqDict.put(entry.getValue(), entryList);
             }
         }
-//        System.out.println(Arrays.toString(freqDict.getArray()));
+
 
         if (index > freqDict.size() - 1 || freqDict.getArray()[index] == null) {
             throw new IndexOutOfBoundsException();
@@ -161,7 +125,8 @@ public class Assignment1 {
         return freqDict.getArray()[index].getValue();
     }
 
-    public static String printListOfEntries(ArrayList<Entry<String, Integer>> listOfEntries){
+
+    public static String printListOfEntries(ArrayList<Entry<String, Integer>> listOfEntries) {
         StringBuilder result = new StringBuilder();
         for (Entry<String, Integer> entry : listOfEntries) {
             result.append(entry.getKey()).append(":").append(entry.getValue()).append("\n");
@@ -170,17 +135,18 @@ public class Assignment1 {
         return result.toString();
     }
 
-    public static String questionOne(Dictionary<String, Integer> dict){
+    public static String questionOne(Dictionary<String, Integer> dict) {
         return printListOfEntries(getEntriesByFrequency(dict, 0));
     }
-    public static String questionTwo(Dictionary<String, Integer> dict){
+
+    public static String questionTwo(Dictionary<String, Integer> dict) {
         return printListOfEntries(getEntriesByFrequency(dict, 2));
     }
 
-    public static String questionThree(Dictionary<String, Dictionary<String, Integer>> dict){
+    public static String questionThree(Dictionary<String, Dictionary<String, Integer>> dict) {
         Dictionary<String, Dictionary<String, Integer>> sentenceDict = new Dictionary<>(dict.getArray().clone());
 
-        ArrayList< Entry< String, ArrayList< Entry<String, Integer> > > > listOfEntries = new ArrayList<>();
+        ArrayList<Entry<String, ArrayList<Entry<String, Integer>>>> listOfEntries = new ArrayList<>();
 
         for (int i = 0; i < sentenceDict.size() - 1; i++) {
             Entry<String, Dictionary<String, Integer>> sentence = sentenceDict.getArray()[i];
@@ -195,14 +161,125 @@ public class Assignment1 {
         StringBuilder max = new StringBuilder();
         int maxFreq = listOfEntries.get(0).getValue().get(0).getValue();
 
-        for (Entry< String, ArrayList< Entry<String, Integer> > > entry:
-             listOfEntries) {
+        for (Entry<String, ArrayList<Entry<String, Integer>>> entry :
+                listOfEntries) {
             for (Entry<String, Integer> wordEntry : entry.getValue()) {
-                if (wordEntry.getValue() == maxFreq){
-                    max.append(wordEntry.getKey() + ":" + wordEntry.getValue() +  ":" + entry.getKey().trim() + "\n");
+                if (wordEntry.getValue() == maxFreq) {
+                    max.append(wordEntry.getKey() + ":" + wordEntry.getValue() + ":" + entry.getKey().trim() + "\n");
                 }
             }
         }
         return max.toString();
     }
+
+    public static String getWordFreq(Dictionary<String, Dictionary<String, Integer>> dict, String word) {
+        Dictionary<String, Dictionary<String, Integer>> sentenceDict = new Dictionary<>(dict.getArray().clone());
+
+        Dictionary<Integer, ArrayList<String>> freqDict = new Dictionary<>();
+
+        for (Entry<String, Dictionary<String, Integer>> entry : sentenceDict.getArray()) {
+            if (entry == null) {
+                break;
+            }
+
+            if (entry.getValue().contains(word)) {
+                int frequency = entry.getValue().get(word);
+                if (freqDict.contains(frequency)) {
+                    ArrayList<String> temporaryList = freqDict.get(frequency);
+                    temporaryList.add(entry.getKey());
+                    freqDict.put(frequency, temporaryList);
+                } else {
+                    ArrayList<String> list = new ArrayList<>();
+                    list.add(entry.getKey());
+                    freqDict.put(frequency, list);
+                }
+            }
+
+        }
+
+        int maxFrequency = Integer.MIN_VALUE;
+        StringBuilder resultSentence = new StringBuilder();
+
+        for (Entry<Integer, ArrayList<String>> freqEntry : freqDict.getArray()) {
+            if (freqEntry != null && freqEntry.getKey() > maxFrequency) {
+                maxFrequency = freqEntry.getKey();
+            }
+        }
+
+        // Build the result string with the desired format
+        for (String sentence : freqDict.get(maxFrequency)) {
+            resultSentence.append(word).append(":").append(maxFrequency).append(":").append(sentence.trim()).append("\n");
+        }
+
+        return resultSentence.toString().trim(); // Remove trailing newline
+
+    }
+    public static String getPhraseFreq(Dictionary<String, Dictionary<String, Integer>> dict, String word) {
+        Dictionary<String, Dictionary<String, Integer>> sentenceDict = new Dictionary<>(dict.getArray().clone());
+
+        Dictionary<Integer, ArrayList<String>> freqDict = new Dictionary<>();
+
+        for (Entry<String, Dictionary<String, Integer>> entry : sentenceDict.getArray()) {
+            if (entry == null) {
+                continue;
+            }
+
+            int frequency = countOccurrences(entry.getKey(), word);
+
+            if (entry.getKey().contains(word)) {
+
+                if (freqDict.contains(frequency)) {
+                    ArrayList<String> temporaryList = freqDict.get(frequency);
+                    temporaryList.add(entry.getKey());
+                    freqDict.put(frequency, temporaryList);
+                } else {
+                    ArrayList<String> list = new ArrayList<>();
+                    list.add(entry.getKey());
+                    freqDict.put(frequency, list);
+                }
+            }
+
+        }
+
+        int maxFrequency = Integer.MIN_VALUE;
+        StringBuilder resultSentence = new StringBuilder();
+
+        for (Entry<Integer, ArrayList<String>> freqEntry : freqDict.getArray()) {
+            if (freqEntry != null && freqEntry.getKey() > maxFrequency) {
+                maxFrequency = freqEntry.getKey();
+            }
+        }
+
+        // Build the result string with the desired format
+        if (freqDict.get(maxFrequency) != null ) {
+            for (String sentence : freqDict.get(maxFrequency)) {
+                resultSentence.append(word).append(":").append(maxFrequency).append(":").append(sentence.trim()).append("\n");
+            }
+        } else {
+            resultSentence.append("No phrases found in given text");
+        }
+
+        return resultSentence.toString().trim(); // Remove trailing newline
+
+    }
+
+    private static int countOccurrences(String sentence, String phrase) {
+        int count = 0;
+        int index = sentence.indexOf(phrase);
+        while (index != -1) {
+            count++;
+            index = sentence.indexOf(phrase, index + phrase.length());
+        }
+        return count;
+    }
+
+    public static void writeToFile(String filename, String content) {
+        try (FileWriter writer = new FileWriter(filename)) {
+            writer.write(content);
+        } catch (IOException e) {
+            System.out.println("Error writing to file: " + e.getMessage());
+        }
+    }
+
+
 }
