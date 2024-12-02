@@ -1,6 +1,7 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Assignment1 {
@@ -46,7 +47,7 @@ public class Assignment1 {
                 //If our words dictionary already contains our word
                 if(sentenceWordCounts.contains(next)){
                     //Increment count of word by one
-                    sentenceWordCounts.put(next, words.get(next) + 1);
+                    sentenceWordCounts.put(next, sentenceWordCounts.get(next) + 1);
                 } else {
                     //Else, add word to our dictionary with initial value of 1
                     sentenceWordCounts.put(next, 1);
@@ -55,15 +56,23 @@ public class Assignment1 {
 
             sentences.put(sentenceArray[i], sentenceWordCounts);
         }
+//        for (Entry<String, Dictionary<String, Integer>> sentenceEntry : sentences.getArray()) {
+//            if (sentenceEntry == null) {
+//                continue;
+//            }
+//            System.out.println("Sentence: " + sentenceEntry.getKey());
+//            Dictionary<String, Integer> wordCounts = sentenceEntry.getValue();
+//            for (Entry<String, Integer> wordEntry : wordCounts.getArray()) {
+//                if (wordEntry == null) {
+//                    continue;
+//                }
+//                System.out.println(wordEntry.getKey() + ":" + wordEntry.getValue());
+//            }
+//            System.out.println();
+//        }
 
-        for (Entry entry:
-                sentences.getArray()) {
-            if (entry == null) {
-                break;
-            }
-            System.out.print(entry.getEntry() + ", ");
-        }
-        System.out.println("\n");
+
+
 
         for (Entry entry:
                 words.getArray()) {
@@ -78,6 +87,10 @@ public class Assignment1 {
         System.out.println(questionOne(words));
 
         System.out.println(questionTwo(words));
+
+        System.out.println(questionThree(sentences));
+
+
 
 //        for (Entry entry:
 //                words.getArray()) {
@@ -117,7 +130,7 @@ public class Assignment1 {
 //        * a new ArrayList "Most Frequent Words."
 //        * */
 //    }
-    public static ArrayList<Entry<String, Integer>> getListOfEntries(Dictionary<String, Integer> dict, int index){
+    public static ArrayList<Entry<String, Integer>> getEntriesByFrequency(Dictionary<String, Integer> dict, int index){
         Dictionary<String, Integer> wordsDict = new Dictionary<>(dict.getArray().clone());
 
         Dictionary<Integer, ArrayList<Entry<String, Integer>>> freqDict = new Dictionary<>();
@@ -139,8 +152,9 @@ public class Assignment1 {
                 freqDict.put(entry.getValue(), entryList);
             }
         }
+//        System.out.println(Arrays.toString(freqDict.getArray()));
 
-        if (index > freqDict.size() - 1){
+        if (index > freqDict.size() - 1 || freqDict.getArray()[index] == null) {
             throw new IndexOutOfBoundsException();
         }
 
@@ -157,9 +171,38 @@ public class Assignment1 {
     }
 
     public static String questionOne(Dictionary<String, Integer> dict){
-        return printListOfEntries(getListOfEntries(dict, 0));
+        return printListOfEntries(getEntriesByFrequency(dict, 0));
     }
     public static String questionTwo(Dictionary<String, Integer> dict){
-        return printListOfEntries(getListOfEntries(dict, 2));
+        return printListOfEntries(getEntriesByFrequency(dict, 2));
+    }
+
+    public static String questionThree(Dictionary<String, Dictionary<String, Integer>> dict){
+        Dictionary<String, Dictionary<String, Integer>> sentenceDict = new Dictionary<>(dict.getArray().clone());
+
+        ArrayList< Entry< String, ArrayList< Entry<String, Integer> > > > listOfEntries = new ArrayList<>();
+
+        for (int i = 0; i < sentenceDict.size() - 1; i++) {
+            Entry<String, Dictionary<String, Integer>> sentence = sentenceDict.getArray()[i];
+            if (sentence == null) {
+                continue;
+            }
+            listOfEntries.add(new Entry<>(sentence.getKey(), getEntriesByFrequency(sentence.getValue(), 0)));
+        }
+
+        listOfEntries.sort((a, b) -> b.getValue().get(0).getValue().compareTo(a.getValue().get(0).getValue()));
+
+        StringBuilder max = new StringBuilder();
+        int maxFreq = listOfEntries.get(0).getValue().get(0).getValue();
+
+        for (Entry< String, ArrayList< Entry<String, Integer> > > entry:
+             listOfEntries) {
+            for (Entry<String, Integer> wordEntry : entry.getValue()) {
+                if (wordEntry.getValue() == maxFreq){
+                    max.append(wordEntry.getKey() + ":" + wordEntry.getValue() +  ":" + entry.getKey().trim() + "\n");
+                }
+            }
+        }
+        return max.toString();
     }
 }
