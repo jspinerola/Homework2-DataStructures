@@ -1,0 +1,298 @@
+Index: output5.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/output5.txt b/output5.txt
+deleted file mode 100644
+--- a/output5.txt	(revision db29c88575f1919e9e5f1dfdb31191a52b50a29c)
++++ /dev/null	(revision db29c88575f1919e9e5f1dfdb31191a52b50a29c)
+@@ -1,1 +0,0 @@
+-of:5:i was frightened of the house of the man of the woman of the servants even of the child
+\ No newline at end of file
+Index: output7.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/output7.txt b/output7.txt
+deleted file mode 100644
+--- a/output7.txt	(revision db29c88575f1919e9e5f1dfdb31191a52b50a29c)
++++ /dev/null	(revision db29c88575f1919e9e5f1dfdb31191a52b50a29c)
+@@ -1,1 +0,0 @@
+-No phrases found in given text
+\ No newline at end of file
+Index: output9.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/output9.txt b/output9.txt
+deleted file mode 100644
+--- a/output9.txt	(revision db29c88575f1919e9e5f1dfdb31191a52b50a29c)
++++ /dev/null	(revision db29c88575f1919e9e5f1dfdb31191a52b50a29c)
+@@ -1,2 +0,0 @@
+-in my:1:i slipped in in safety and lay awake half the night in my joy at the thought of seeing you
+-in my:1:it is for me to ask you that he shrieked you thieves spies and thieves i have caught you have i you are in my power
+\ No newline at end of file
+Index: output4.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/output4.txt b/output4.txt
+deleted file mode 100644
+--- a/output4.txt	(revision db29c88575f1919e9e5f1dfdb31191a52b50a29c)
++++ /dev/null	(revision db29c88575f1919e9e5f1dfdb31191a52b50a29c)
+@@ -1,3 +0,0 @@
+-the:5:i was frightened of the house of the man of the woman of the servants even of the child
+-the:5:a horrible doubt came into my mind as i approached the door lest the dog might be loose but i remembered that toller had drunk himself into a state of insensibility that evening and i knew that he was the only one in the household who had any influence with the savage creature or who would venture to set him free
+-the:5:the group of trees with their dark leaves shining like burnished metal in the light of the setting sun were sufficient to mark the house even had miss hunter not been standing smiling on the door step
+\ No newline at end of file
+Index: output8.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/output8.txt b/output8.txt
+deleted file mode 100644
+--- a/output8.txt	(revision db29c88575f1919e9e5f1dfdb31191a52b50a29c)
++++ /dev/null	(revision db29c88575f1919e9e5f1dfdb31191a52b50a29c)
+@@ -1,3 +0,0 @@
+-it was:1:we were as good as our word for it was just seven when we reached the copper beeches having put up our trap at a wayside public house
+-it was:1:it was an old rickety door and gave at once before our united strength
+-it was:1:it was empty
+\ No newline at end of file
+Index: output1.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/output1.txt b/output1.txt
+deleted file mode 100644
+--- a/output1.txt	(revision db29c88575f1919e9e5f1dfdb31191a52b50a29c)
++++ /dev/null	(revision db29c88575f1919e9e5f1dfdb31191a52b50a29c)
+@@ -1,1 +0,0 @@
+-the:88
+Index: output3.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/output3.txt b/output3.txt
+deleted file mode 100644
+--- a/output3.txt	(revision db29c88575f1919e9e5f1dfdb31191a52b50a29c)
++++ /dev/null	(revision db29c88575f1919e9e5f1dfdb31191a52b50a29c)
+@@ -1,4 +0,0 @@
+-of:5:i was frightened of the house of the man of the woman of the servants even of the child
+-the:5:i was frightened of the house of the man of the woman of the servants even of the child
+-the:5:a horrible doubt came into my mind as i approached the door lest the dog might be loose but i remembered that toller had drunk himself into a state of insensibility that evening and i knew that he was the only one in the household who had any influence with the savage creature or who would venture to set him free
+-the:5:the group of trees with their dark leaves shining like burnished metal in the light of the setting sun were sufficient to mark the house even had miss hunter not been standing smiling on the door step
+Index: output6.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/output6.txt b/output6.txt
+deleted file mode 100644
+--- a/output6.txt	(revision db29c88575f1919e9e5f1dfdb31191a52b50a29c)
++++ /dev/null	(revision db29c88575f1919e9e5f1dfdb31191a52b50a29c)
+@@ -1,1 +0,0 @@
+-was:3:the man in the road was undoubtedly some friend of hers possibly her fiance and no doubt as you wore the girls dress and were so like her he was convinced from your laughter whenever he saw you and afterwards from your gesture that miss rucastle was perfectly happy and that she no longer desired his attentions
+\ No newline at end of file
+Index: output2.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/output2.txt b/output2.txt
+deleted file mode 100644
+--- a/output2.txt	(revision db29c88575f1919e9e5f1dfdb31191a52b50a29c)
++++ /dev/null	(revision db29c88575f1919e9e5f1dfdb31191a52b50a29c)
+@@ -1,1 +0,0 @@
+-and:49
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"4d2a7688-6aab-45fc-ad22-7fcaeabafcee\" name=\"Changes\" comment=\"feat: create separate methods for Maximum Occurrences in sentences using phrases or single words, and WriteToFile method to store output of questions\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_2_2024_10_22_AM_[Changes]/shelved.patch\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_2_2024_10_22_AM__Changes_.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_2_2024_10_27_AM_[Changes]/shelved.patch\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_2_2024_10_27_AM__Changes_.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/output1.txt\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/output2.txt\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/output3.txt\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/output4.txt\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/output5.txt\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/output6.txt\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/output7.txt\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/output8.txt\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/output9.txt\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/input.txt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/input.txt\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Assignment1.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Assignment1.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;jspinerola&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/jspinerola/Homework2-DataStructures.git&quot;,\r\n    &quot;accountId&quot;: &quot;e7d05334-36e6-4c96-bb86-0a9a53c684bc&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 6\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2pOXSKJMoKFXZwjH0Yk8TFRdZ2I\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Application.Assignment1.executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;kevin-branch&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\1234l\\IdeaProjects\\data-strucures-lab\\Homework-2-Data-Structures\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Assignment1\" type=\"Application\" factoryName=\"Application\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Assignment1\" />\r\n      <module name=\"Homework-2-Data-Structures\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\"&quot;./input.txt&quot; &quot;output&quot;\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193\" />\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"4d2a7688-6aab-45fc-ad22-7fcaeabafcee\" name=\"Changes\" comment=\"\" />\r\n      <created>1732638096086</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1732638096086</updated>\r\n      <workItem from=\"1733162137630\" duration=\"175000\" />\r\n      <workItem from=\"1733162325859\" duration=\"1961000\" />\r\n      <workItem from=\"1733164439038\" duration=\"1632000\" />\r\n      <workItem from=\"1733166331149\" duration=\"1621000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"init commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1732651330092</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1732651330092</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"erm\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1732651668409</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1732651668409</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"feat: created dictionary interface and class. implemented add method.\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1732662597082</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1732662597082</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"feat: implemented word dictionary that stores all words and occurrences.\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1732736056599</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1732736056599</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"feat: solved q1 and q2, created methods to calculate the nth most freq word.\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1732835248587</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1732835248587</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"fix: extrapolated code from q2 to different methods for added code reuse.\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1732836034787</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1732836034787</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"init commit\" />\r\n    <MESSAGE value=\"erm\" />\r\n    <MESSAGE value=\"feat: created dictionary interface and class. implemented add method.\" />\r\n    <MESSAGE value=\"feat: implemented word dictionary that stores all words and occurrences.\" />\r\n    <MESSAGE value=\"feat: solved q1 and q2, created methods to calculate the nth most freq word.\" />\r\n    <MESSAGE value=\"fix: extrapolated code from q2 to different methods for added code reuse.\" />\r\n    <MESSAGE value=\"feat: create separate methods for Maximum Occurrences in sentences using phrases or single words, and WriteToFile method to store output of questions\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"feat: create separate methods for Maximum Occurrences in sentences using phrases or single words, and WriteToFile method to store output of questions\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision db29c88575f1919e9e5f1dfdb31191a52b50a29c)
++++ b/.idea/workspace.xml	(date 1733265783361)
+@@ -4,24 +4,21 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="4d2a7688-6aab-45fc-ad22-7fcaeabafcee" name="Changes" comment="feat: create separate methods for Maximum Occurrences in sentences using phrases or single words, and WriteToFile method to store output of questions">
+-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_2_2024_10_22_AM_[Changes]/shelved.patch" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_2_2024_10_22_AM__Changes_.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_2_2024_10_27_AM_[Changes]/shelved.patch" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_2_2024_10_27_AM__Changes_.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/output1.txt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/output2.txt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/output3.txt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/output4.txt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/output5.txt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/output6.txt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/output7.txt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/output8.txt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/output9.txt" afterDir="false" />
++    <list default="true" id="4d2a7688-6aab-45fc-ad22-7fcaeabafcee" name="Changes" comment="feat: solved question 3 (absolutely horrendous)">
+       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_2_2024_10_22_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_2_2024_10_22_AM__Changes_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_2_2024_10_27_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_2_2024_10_27_AM__Changes_.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Assignment1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment1.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/output1.txt" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/output2.txt" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/output3.txt" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/output4.txt" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/output5.txt" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/output6.txt" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/output7.txt" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/output8.txt" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/output9.txt" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dictionary.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -50,12 +47,14 @@
+     &quot;assignee&quot;: &quot;jspinerola&quot;
+   }
+ }</component>
+-  <component name="GithubPullRequestsUISettings">{
+-  &quot;selectedUrlAndAccountId&quot;: {
+-    &quot;url&quot;: &quot;https://github.com/jspinerola/Homework2-DataStructures.git&quot;,
+-    &quot;accountId&quot;: &quot;e7d05334-36e6-4c96-bb86-0a9a53c684bc&quot;
+-  }
+-}</component>
++  <component name="GithubPullRequestsUISettings">
++    <option name="selectedUrlAndAccountId">
++      <UrlAndAccount>
++        <option name="accountId" value="55b48a2a-cc5d-4ae1-b0cc-e82697c2ea10" />
++        <option name="url" value="https://github.com/jspinerola/Homework2-DataStructures.git" />
++      </UrlAndAccount>
++    </option>
++  </component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 6
+ }</component>
+@@ -67,19 +66,10 @@
+   </component>
+   <component name="PropertiesComponent">{
+   &quot;keyToString&quot;: {
+-    &quot;Application.Assignment1.executor&quot;: &quot;Run&quot;,
+     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;kevin-branch&quot;,
+-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++    &quot;git-widget-placeholder&quot;: &quot;julian-branch&quot;
+   }
+ }</component>
+   <component name="RecentsManager">
+@@ -97,14 +87,6 @@
+       </method>
+     </configuration>
+   </component>
+-  <component name="SharedIndexes">
+-    <attachedChunks>
+-      <set>
+-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+-        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+-      </set>
+-    </attachedChunks>
+-  </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -113,10 +95,6 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1732638096086</updated>
+-      <workItem from="1733162137630" duration="175000" />
+-      <workItem from="1733162325859" duration="1961000" />
+-      <workItem from="1733164439038" duration="1632000" />
+-      <workItem from="1733166331149" duration="1621000" />
+     </task>
+     <task id="LOCAL-00001" summary="init commit">
+       <option name="closed" value="true" />
+@@ -169,20 +147,6 @@
+     <option name="localTasksCounter" value="7" />
+     <servers />
+   </component>
+-  <component name="TypeScriptGeneratedFilesManager">
+-    <option name="version" value="3" />
+-  </component>
+-  <component name="Vcs.Log.Tabs.Properties">
+-    <option name="TAB_STATES">
+-      <map>
+-        <entry key="MAIN">
+-          <value>
+-            <State />
+-          </value>
+-        </entry>
+-      </map>
+-    </option>
+-  </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="init commit" />
+     <MESSAGE value="erm" />
+@@ -190,7 +154,6 @@
+     <MESSAGE value="feat: implemented word dictionary that stores all words and occurrences." />
+     <MESSAGE value="feat: solved q1 and q2, created methods to calculate the nth most freq word." />
+     <MESSAGE value="fix: extrapolated code from q2 to different methods for added code reuse." />
+-    <MESSAGE value="feat: create separate methods for Maximum Occurrences in sentences using phrases or single words, and WriteToFile method to store output of questions" />
+-    <option name="LAST_COMMIT_MESSAGE" value="feat: create separate methods for Maximum Occurrences in sentences using phrases or single words, and WriteToFile method to store output of questions" />
++    <option name="LAST_COMMIT_MESSAGE" value="fix: extrapolated code from q2 to different methods for added code reuse." />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/Dictionary.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Dictionary<K, V> implements DictionaryInterface<K, V> {\r\n    private Entry<K, V>[] dictionary;\r\n    private int numEntries;\r\n    private boolean integrityOK = false;\r\n    private final static int DEFAULT_CAPACITY = 25;\r\n    private final static int MAX_CAPACITY = 1000;\r\n\r\n    public Dictionary(){\r\n        Entry<K, V>[] tempDictionary = (Entry<K, V>[])new Entry[DEFAULT_CAPACITY];\r\n        this.dictionary = tempDictionary;\r\n        this.numEntries = 0;\r\n        integrityOK = true;\r\n    }\r\n    public Dictionary(Entry<K, V>[] dict){\r\n        this.dictionary = dict;\r\n        this.numEntries = 0;\r\n        for (Entry<K, V> entry : dict) {\r\n            if (entry != null) {\r\n                this.numEntries++;\r\n            }\r\n        }\r\n        integrityOK = true;\r\n    }\r\n\r\n    @Override\r\n    public V put(K key, V value){\r\n        if ((key == null) || (value == null)){\r\n            throw new IllegalArgumentException(\"Cannot add null to this dictionary.\");}\r\n        else{\r\n            V result = null;\r\n            int keyIndex = locateIndex(key);\r\n            if(keyIndex < numEntries){\r\n                result = dictionary[keyIndex].getValue();\r\n                dictionary[keyIndex].setValue(value);\r\n            } else {\r\n                dictionary[numEntries] = new Entry<>(key, value);\r\n                numEntries++;\r\n                ensureCapacity();\r\n            }\r\n            return result;\r\n        }\r\n    }\r\n\r\n    public V remove(K key){\r\n        V result = null;;\r\n        int keyIndex = locateIndex(key);\r\n        if(keyIndex < numEntries){\r\n             result = this.dictionary[keyIndex].getValue();\r\n            this.dictionary[keyIndex] = this.dictionary[numEntries - 1];\r\n            this.dictionary[numEntries - 1] = null;\r\n            numEntries--;\r\n        }\r\n        return result;\r\n    }\r\n\r\n    public V get(K key) {\r\n        int keyIndex = locateIndex(key);\r\n        if (keyIndex < numEntries) {\r\n            return dictionary[keyIndex].getValue();\r\n        } else {\r\n            return null;\r\n        }\r\n    }\r\n\r\n    public Entry<K, V>[] getArray(){\r\n        return this.dictionary;\r\n    }\r\n\r\n\r\n    @Override\r\n    public boolean contains(K key){\r\n        boolean found = false;\r\n        for (Entry<K, V> dictKey: this.dictionary) {\r\n            if(dictKey == null){\r\n                break;\r\n            }\r\n\r\n            if(dictKey.getKey().equals(key)){\r\n                found = true;\r\n            }\r\n        }\r\n        return found;\r\n    }\r\n\r\npublic int size(){\r\n    return this.numEntries;\r\n}\r\n    public void sort(){\r\n        int n = this.size();\r\n        for (int i = 1; i < n; i++) {\r\n            Entry<K, V> key = this.dictionary[i];\r\n            int j = i - 1;\r\n\r\n            while(j > -1 && (Integer)dictionary[j].getValue() < (Integer)key.getValue()){\r\n                dictionary[j + 1] = dictionary[j];\r\n                j--;\r\n            }\r\n            dictionary[j + 1] = key;\r\n        }\r\n    }\r\n\r\n    private int locateIndex(K key)\r\n    {\r\n        int index = 0;\r\n        while ( (index < numEntries) &&\r\n                !key.equals(dictionary[index].getKey()) )\r\n            index++;\r\n        return index;\r\n    }\r\n\r\n    private void ensureCapacity() {\r\n        if (numEntries >= dictionary.length) {\r\n            int newCapacity = Math.min(dictionary.length * 2, MAX_CAPACITY);\r\n            if (newCapacity > dictionary.length) {\r\n                Entry<K, V>[] tempDictionary = (Entry<K, V>[])new Entry[newCapacity];\r\n                System.arraycopy(dictionary, 0, tempDictionary, 0, numEntries);\r\n                dictionary = tempDictionary;\r\n            } else {\r\n                throw new IllegalStateException(\"Cannot exceed maximum capacity.\");\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Dictionary.java b/src/Dictionary.java
+--- a/src/Dictionary.java	(revision db29c88575f1919e9e5f1dfdb31191a52b50a29c)
++++ b/src/Dictionary.java	(date 1733244184579)
+@@ -3,7 +3,7 @@
+     private int numEntries;
+     private boolean integrityOK = false;
+     private final static int DEFAULT_CAPACITY = 25;
+-    private final static int MAX_CAPACITY = 1000;
++    private final static int MAX_CAPACITY = 10000;
+ 
+     public Dictionary(){
+         Entry<K, V>[] tempDictionary = (Entry<K, V>[])new Entry[DEFAULT_CAPACITY];
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_22\" default=\"true\" project-jdk-name=\"openjdk-22 (2)\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision db29c88575f1919e9e5f1dfdb31191a52b50a29c)
++++ b/.idea/misc.xml	(date 1733168797819)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="openjdk-22 (2)" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="openjdk-22 (2)" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
