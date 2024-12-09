@@ -3,7 +3,7 @@ public class Dictionary<K, V> implements DictionaryInterface<K, V> {
     private int numEntries;
     private boolean integrityOK = false;
     private final static int DEFAULT_CAPACITY = 25;
-    private final static int MAX_CAPACITY = 1000;
+    private final static int MAX_CAPACITY = 10000;
 
     public Dictionary(){
         Entry<K, V>[] tempDictionary = (Entry<K, V>[])new Entry[DEFAULT_CAPACITY];
